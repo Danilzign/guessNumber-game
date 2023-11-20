@@ -25,7 +25,7 @@ func Guess() {
 			i = 10
 		default:
 			fmt.Println("Неправильный ввод")
-			i = 9
+			i = 10
 		}
 
 		if hiddenNumber > 1000 || hiddenNumber < 0 {
